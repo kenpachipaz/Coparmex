@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CoparmexBeta</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="registrar">Registrar</string>
+    <string name="regresar">Regresar</string>
+    
+        <!-- Lista de titulos de navgacion -->
+    <string-array name="nav_options">
+        <item>Noticias</item>
+        <item>Formación</item>
+        <item>Red de Negocio</item>
+        <item>Eventos</item>
+        <item>Cerrar Sesión</item>
+    </string-array>
+    <!-- Lista de iconos de navegacion -->
+
+    <array name="nav_iconos">
+        <item>@drawable/ic_action_attachment</item>
+        <item>@drawable/ic_action_accounts</item>
+        <item>@drawable/ic_action_new_event</item>
+        <item>@drawable/ic_action_cloud</item>
+        <item>@drawable/ic_action_import_export</item>
+    </array>
+
+</resources>

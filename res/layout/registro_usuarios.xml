@@ -1,0 +1,111 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--Contenedor principal-->
+    <RelativeLayout
+        android:id="@+id/contendor_principal"
+        android:layout_width="match_parent"
+        android:background="#212121"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_below="@+id/textView"
+            android:id="@+id/editText1"
+            android:layout_marginTop="50dp"
+            android:hint="Nombre Completo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_below="@+id/editText1"
+            android:id="@+id/editText2"
+            android:layout_marginTop="22dp"
+            android:hint="Nombre de la Empresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_below="@+id/editText2"
+            android:id="@+id/editText3"
+            android:layout_marginTop="22dp"
+            android:hint="Telefono"
+            android:inputType="phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_below="@+id/editText3"
+            android:id="@+id/editText4"
+            android:layout_marginTop="22dp"
+            android:hint="Correo Electronico"
+            android:inputType="textEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:layout_below="@+id/editText4"
+            android:id="@+id/editText5"
+            android:layout_marginTop="22dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:drawableLeft="@drawable/ic_action_add_person"
+            android:textColor="#eee"
+            android:id="@+id/button"
+            android:layout_below="@+id/editText5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#2e2e2e"
+        android:dividerHeight="2dp"
+        android:background="#212121"
+        android:textColor="#212121"
+        />
+</android.support.v4.widget.DrawerLayout>
